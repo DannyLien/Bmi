@@ -6,4 +6,9 @@ class Bmi(val weight: Float, val height: Float) {
         return weight / (height * height)
     }
 
+    override fun toString(): String {
+        return bmi().toString()
+    }
 }
+
+
